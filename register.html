@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html"><img src="image/LOGO DBPC2023.svg" alt=""></a>
+                <ul class="navbar-nav ms-auto mb-0 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Mechanism</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Latest Update</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button class="register">Register</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <p class="regis">Register</p>
+    </header>
+    
+    <form>
+        <input type="text" class="textinput" placeholder="Nama Perusahaan">
+        <input type="text" class="textinput" placeholder="Email">
+        <input type="number" class="textinput" placeholder="Nomor Telepon">
+        <div class="txtform">
+            <p class="text-black-50">Isi hanya angka</p>
+        </div>
+        <input type="text" class="textinputperusahaan" placeholder="Tentang Perusahaan (Max. 200 character)">
+        <div class="card mb-3" style="width: 600px; border: none;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="image/Group 570.svg" class="img-fluid rounded-start">
+                    <p class="fs-6 text-center">Upload file Logo</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-text fs-6">1.Format file: .png, .jpg, .jpeg<br>
+                            2. Maksimal ukuran file 200KB<br>
+                            3. Hindari penggunaan logo berwarna putih<br>
+                            4. Minimal lebar 300px</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="uploadfile">
+            <p>Profil Perusahaan atau Deck (opsional)</p>
+            <input type="submit" class="submit" value="Upload file">
+        </div>
+        <div class="txtform">
+            <p class="text-black-50">Format file .pdf , maksimal size 20mb file</p>
+        </div>
+        <input type="text" class="textinput" placeholder="Link website">
+        <div class="txtform">
+            <p class="text-black-50">Website, Sosial Media, dll. Sertakan protokol URL (https:// atau http://)</p>
+        </div>
+        <div class="chckbox">
+            <input type="checkbox" class="checkbox">
+            <p class="text-black">Dengan menekan tombol "Daftar", Saya menyetujui syarat dan ketentuan yang berlaku</p>
+        </div>
+        <input type="submit" value="Register" class="submitregister">
+    </form>
+
+    <footer>
+        <img src="image/LOGO DBPC2023.svg" class="logofooter">
+        <div class="textfooter">
+            <p>Detikfinance memberikan ruang kepada para startup di Indonesia untuk menunjukkan, serta<br>brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor</p>
+            <div class=" text-end icon">
+                <img src="image/footertwitter.svg" class="icont">
+                <img src="image/instagram.svg" class="icont">
+                <img src="image/footerfacebook.svg">
+            </div>
+        </div>
+        <div class="underline"></div>
+        <p class="copyright">© 2023 Detikcom. All rights reserved</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
